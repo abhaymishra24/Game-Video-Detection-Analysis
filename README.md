@@ -20,6 +20,15 @@ Rotation direction inferred from dominant vector field.
 Tracking centroid across frames.
 Velocity calculated as displacement/time.
 
+## How This Works
+
+- YOLOv8 → detects ball + player bounding boxes.
+- MediaPipe Pose → extracts keypoints (ankles, hips, etc.).
+- Touch Detection → checks if ball center overlaps with ankle region.
+- Velocity → calculates player hip midpoint movement over time.
+- Ball Rotation → uses Optical Flow between consecutive ball crops.
+- Overlay → counts, velocity, and spin shown on video.
+
 ## Tools & Libraries
 
 - Pose Estimation: MediaPipe Pose, OpenPose, DeepLabCut
