@@ -6,15 +6,15 @@ This project utilizes object detection algorithms to analyze football matche vid
 -  Player Movement Velocity.
 
 ## Explanation of work - 
-###### Touch Counting
+##### Touch Counting
 Pose estimation + collision check between ball and foot.
 Leg identified via ankle keypoint proximity.
 
-###### Ball Rotation
+##### Ball Rotation
 Optical flow analysis on cropped ball region.
 Rotation direction inferred from dominant vector field.
 
-###### Player Velocity
+##### Player Velocity
 
 Tracking centroid across frames.
 Velocity calculated as displacement/time.
