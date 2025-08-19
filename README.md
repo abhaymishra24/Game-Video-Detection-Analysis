@@ -23,20 +23,9 @@ cd "./Football-Object-Detection"
 pip install requirements.txt
 ```
 
-</details>
-
-<details><summary>Inference on video</summary>
-
-To run the model on a video, run the following command: 
-```
-python main.py /path/to/video
-```
-The annotated video will be saved to "Football Object Detection/output" folder
-
-</details>
-
 ## Object Detection model
-The model used for object detection is <a href=https://github.com/ultralytics/ultralytics>YOLOv8</a>, it was trained on <a href=https://drive.google.com/drive/folders/17w9yhEDZS7gLdZGjiwPQytLz3-iTUpKm>SoccerNet Dataset</a> for 25 epochs, to classify the objects into only 5 different classes:  
+To classify the objects into only 5 different classes:  
+
 0 - Player  
 1 - Goalkeeper  
 2 - Ball  
