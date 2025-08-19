@@ -62,10 +62,11 @@ def get_kits_colors(players, grass_hsv=None, frame=None):
    
   kits_colors = []
   if grass_hsv is None:
-	  grass_color = get_grass_color(frame)
-	  grass_hsv = cv2.cvtColor(np.uint8([[list(grass_color)]]), cv2.COLOR_BGR2HSV)
+      
+	    grass_color = get_grass_color(frame)
+	    grass_hsv = cv2.cvtColor(np.uint8([[list(grass_color)]]), cv2.COLOR_BGR2HSV)
 
-  for player_img in players:
+    for player_img in players:
       # Convert image to HSV color space
       hsv = cv2.cvtColor(player_img, cv2.COLOR_BGR2HSV)
 
