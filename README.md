@@ -1,15 +1,11 @@
 # Football Object Detection
 This project utilizes object detection algorithms to analyze football matche video by finding the position of different objects on the football pitch and classifying them into 7 different classes:  
-0 - Player team left  
-1 - Player team right  
-2 - Goalkeeper team left  
-3 - Goalkeeper team right  
-4 - Ball  
-5 - Main referee  
-6 - Side referee  
-7 - Staff members  
+1 - Player left leg (Touch count)  
+2 - Player right leg (Touch count)
+3 - Ball Rotation
+4 - Player Movement Velocity.
+
 ## Demo
-https://github.com/Mostafa-Nafie/Football-Object-Detection/assets/44211916/aaac347e-f21b-4433-841c-0cefea8770d2
 
 
 
