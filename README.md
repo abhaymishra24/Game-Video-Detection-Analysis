@@ -20,4 +20,9 @@ Rotation direction inferred from dominant vector field.
 Tracking centroid across frames.
 Velocity calculated as displacement/time.
 
+## Tools & Libraries
 
+- Pose Estimation: MediaPipe Pose, OpenPose, DeepLabCut
+- Object Detection/Tracking: YOLOv8 + DeepSORT
+- Motion Analysis: OpenCV (Optical Flow, Contour Analysis)
+- Annotation: OpenCV, Matplotlib (for graphs), ffmpeg.
